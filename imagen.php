@@ -8,7 +8,7 @@
 <?php
 $numero1=16;
 $numero2=8;
-$nombreimagen="aha.png";
+$nombreimagen="yo.jpg";
 $suma=$numero1+$numero2;
 if ($numero1 > $numero2){
 
