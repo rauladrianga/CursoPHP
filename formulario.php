@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>	
 	<title>Formulario</title>
-</head>
+</head>		
 <body>
 <form id="registro" name="Registro" method="post" action="script_guarda.php">
 	<p><label for="nombre">Nombre(s)</label>
@@ -15,11 +15,12 @@
 			<option>Colombia</option>
 			<option>Chile</option>
 			<option>Ecuador</option>
+			<option>México</option>
 			<option>Argentina</option>
 			<option>Perú</option>
 			<option>Otro</option></p></select>
 			<p><label for="password">Contraseña:</label>
-			<input type="text" name="password" id="password"></p>
+			<input type="password" name="password" id="password"></p>
 			<p><input type="submit" name="enviar" value="Enviar" id="enviar"></p>
 			
 			
